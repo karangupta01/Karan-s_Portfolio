@@ -1,9 +1,9 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
+import projectai from "../assets/projects/projectai.png"
+import projectblog from "../assets/projects/projectblog.png"
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a results-driven Full Stack Developer with 1+ year of experience in designing and developing scalable, responsive web applications. Proficient in front-end technologies like React and back-end frameworks such as Node.js, I excel at creating seamless user experiences. Passionate about problem-solving, optimizing performance, and staying ahead of emerging technologies.`;
+export const HERO_CONTENT = `I'm a Software Developer with 1+ years of experience in building and maintaining efficient, scalable solutions. I’ve worked with Python, JavaScript, React, and Node.js, and I’m passionate about clean code, problem-solving, and building user-focused applications in agile environments.`;
 
 // export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Associate Analyst",
     year: "Feb'24 - March'25",
     description:
-      "Experienced Full Stack Developer with 1+ year of expertise in designing, developing, and deploying dynamic web applications. Proficient in front-end and back-end technologies, including JavaScript, React, Node.js, and databases. Passionate about building scalable solutions, optimizing performance, and delivering seamless user experiences. Adept at problem-solving, collaboration, and staying updated with emerging technologies.",
+      "As an Associate Analyst at GlobalLogic, where I collaborate with engineering teams to validate outputs from AI-driven systems. My role involves Python scripting, data handling, and quality assurance processes within agile workflows—giving me hands-on experience with tools and practices commonly used in full stack development. This foundation has fueled my transition into full stack engineering, where I'm now building projects that combine my understanding of backend systems and frontend technologies.",
   },
   {
     company: "Sky Bug Technologies",
@@ -34,41 +34,41 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "AI Travel Planner",
-    image: project1,
+    image: projectai,
     description:
-      "An AI-powered travel planner built with React.js and JavaScript, integrating Google APIs and Gemini AI to create personalized itineraries, suggest destinations, optimize routes, and provide real-time updates and booking options.",
+      "An AI-powered travel planner built with React.js and JavaScript, integrating Firebase for real-time data management, Google APIs for maps, places, and directions, and Gemini AI for intelligent recommendations. It creates personalized itineraries, suggests destinations based on user preferences, optimizes travel routes, and provides real-time updates and seamless booking options. Key achievements include dynamic itinerary generation, user authentication with Firebase Auth, cloud storage integration, responsive UI/UX design, and real-time chat support powered by AI for travel assistance.",
     technologies: ["React","Google API","Gemini AI" ,"Google Authentication", "FireBase"],
     link: "https://github.com/karangupta01/AI-Travel-Planner.git",
   },
   {
     title: "Blog Website",
-    image: project2,
+    image: projectblog,
     description:
-      "A blog website built with React, featuring Appwrite as a BaaS for seamless authentication, media uploads, and database management. Integrated TinyMCE for rich text editing, providing an intuitive and dynamic content creation experience. Offers tutorials and insights on modern web development practices, empowering developers to stay ahead in the tech landscape.",
+      "A dynamic blog website built with React.js, leveraging Appwrite as a robust Backend-as-a-Service (BaaS) for user authentication, real-time database management, and secure media file storage. TinyMCE is integrated for rich text editing, enabling seamless formatting and content creation. The project utilizes Appwrite Functions for server-side logic, React Router for smooth navigation, and Tailwind CSS for responsive, modern UI design. Key achievements include secure user role management, real-time content updates, scalable architecture, and a CMS-like interface empowering developers with tutorials and insights on cutting-edge web development trends.",
     technologies: ["React", "Javascript", "Appwrite", "TinyMCE"],
     link: "https://github.com/karangupta01/Blog-Website-.git",
   },
   {
     title: "Video Tube Backend",
-    image: project3,
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/hd/e69ab290704783.5e39e8ad5f86f.gif",
     description:
-      "VideoTube Backend A professional and optimized backend application using Node.js, Express, and MongoDB to manage video streaming, user authentication, comments, likes, subscriptions, and media uploads securely.",
+      "VideoTube Backend is a professional, scalable backend application built with Node.js and Express.js, using MongoDB for efficient NoSQL data storage. It supports comprehensive video streaming features, including secure user authentication with JWT and bcrypt, robust CRUD operations, comment threads, like/dislike systems, and user subscriptions. Media uploads are handled via Multer and stored securely using Cloudinary. Key achievements include RESTful API design, efficient query optimization, rate limiting, error handling middleware, and a modular, production-ready codebase with Mongoose schema validation.",
     technologies: ["Express", "Javascript", "Authentication", "Nodejs"],
     link: "https://github.com/karangupta01/VIDEOTUBE-Backend-Project.git",
   },
   {
     title: "Video Streaming App",
-    image: project4,
+    image: "https://i.pinimg.com/originals/83/46/f4/8346f4d15db10df3e612e7259f7f9672.gif",
     description:
-      "A full-stack video streaming app using React (frontend), Node.js/Express (backend), and FFmpeg middleware for video processing. Supports file uploads, encoding, and real-time streaming with a responsive user interface.",
+      "A full-stack video streaming application built with React for the frontend and Node.js/Express for the backend, integrated with FFmpeg middleware for video processing. It supports efficient file uploads, encoding, thumbnail generation, and real-time streaming. Features include a responsive UI, playback controls, and optimized performance for smooth user experience across devices. Ideal for content creators and viewers alike.",
     technologies: ["React", "Ffmpeg", "Nodejs", "Axios"],
     link: "https://github.com/karangupta01/Full-Stack-Video-Streaming-Project.git",
   },
   {
     title: "Stock Sentiment Analysis",
-    image: project2,
+    image: project4,
     description:
-      "Stock Sentiment Analysis uses NLP to evaluate news headlines, identifying positive, negative, or neutral sentiments to help investors gauge market trends.",
+      "Stock Sentiment Analysis leverages Natural Language Processing (NLP) and machine learning algorithms like Random Forest Classifier, Naive Bayes, and Passive Aggressive Classifier to analyze financial news headlines. It uses techniques like Bag of Words for text vectorization, enabling accurate classification into positive, negative, or neutral sentiments. This tool helps investors track market sentiment and make data-driven decisions effectively.",
     technologies: ["Python", "Machine Learning"],
     link: "https://github.com/karangupta01/Stock-Sentiment-Analysis.git",
   },

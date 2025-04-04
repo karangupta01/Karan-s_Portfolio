@@ -28,9 +28,9 @@ function Projects() {
                      <a href={project.link} target='_blank' rel='noopener noreferrer' className='block'>
                      <h3 className='mb-2 font-semibold text-2xl' >{project.title}</h3>
                      </a>
-                     <p className='mb-4 text-stone-400' >{project.description}</p>
+                     <p className='mb-4 text-stone-300' >{project.description}</p>
                      {project.technologies.map((tech, index) => (
-                        <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300' key={index}>
+                        <span className='mr-2 rounded bg-black p-2 text-sm font-medium text-white' key={index}>
                            {tech}
                         </span>
                      ))}

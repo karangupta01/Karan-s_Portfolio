@@ -1,11 +1,13 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiMongodb } from 'react-icons/si'
+import { SiExpress, SiGithub, SiMongodb, SiPostman } from 'react-icons/si'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandJavascript } from "react-icons/tb";
 import { DiNodejs } from 'react-icons/di';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { motion } from 'framer-motion';
+import { FaGitAlt } from 'react-icons/fa';
+import { IoLogoDocker } from 'react-icons/io5';
 
 const iconVariants = (duration) => ({
     initial: {y:-10},
@@ -50,6 +52,22 @@ function Technologies() {
             </motion.div>
             <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
                 <BiLogoPostgresql className='text-7xl text-sky-700' />
+            </motion.div>
+            <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
+                <SiGithub className='text-7xl text-white-700' />
+            </motion.div>
+            <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
+                <FaGitAlt className='text-7xl text-orange-800' />
+            </motion.div>
+            <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
+                <IoLogoDocker className='text-7xl text-sky-700' />
+            </motion.div>
+            <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
+                <SiExpress className='text-7xl text-white' />
+                <p>express.js</p>
+            </motion.div>
+            <motion.div initial='initial' animate='animate' variants={iconVariants(4)} className='p-4'>
+                <SiPostman className='text-7xl text-orange-500' />
             </motion.div>
         </motion.div>
     </div>
