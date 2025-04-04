@@ -53,7 +53,7 @@ function Hero() {
                 
                 <motion.span
                  variants={childVariants}
-                 className='bg-purple-500 bg-clip-text text-4xl tracking-tight text-transparent' >
+                 className='bg-purple-300 bg-clip-text text-4xl tracking-tight text-transparent' >
                  {typeEffect} 
                 </motion.span>
                
