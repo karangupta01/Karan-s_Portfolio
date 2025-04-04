@@ -30,7 +30,7 @@ function Experience() {
                                 {experience.company}
                             </span>
                         </h3>
-                        <p className='mb-4 text-stone-400'>{experience.description}</p>
+                        <p className='mb-4 text-stone-200'>{experience.description}</p>
                     </motion.div>
                 </div>
             ))}

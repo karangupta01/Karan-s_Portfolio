@@ -24,7 +24,7 @@ function Hero() {
   const [typeEffect] = useTypewriter({
     words: ['Software Developer', 'Full-Stack Developer', 'Backend Developer', 'Software Engineer'],
     loop: {},
-    typeSpeed: 50
+    typeSpeed: 100,
   })
   
   return (
@@ -53,7 +53,7 @@ function Hero() {
                 
                 <motion.span
                  variants={childVariants}
-                 className='bg-gradient-to-r from-stone-200 to-stone-400 bg-clip-text text-3xl tracking-tight text-transparent' >
+                 className='bg-purple-500 bg-clip-text text-4xl tracking-tight text-transparent' >
                  {typeEffect} 
                 </motion.span>
                
